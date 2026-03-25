@@ -1,0 +1,28 @@
+Execution Plan — Trainer App MVP
+==================================
+
+Fase 1 — Base de datos
+- [ ] Escribir /supabase/schema.sql con todas las tablas del MVP
+- [ ] Correr migrations en Supabase
+- [ ] Habilitar RLS (Row Level Security) por tabla
+
+Fase 2 — Plan Builder (feature más compleja)
+- [ ] UI para crear rutina (nombre, cliente, duración 6 semanas)
+- [ ] Editor de semanas: sets / reps / PSE por ejercicio
+- [ ] Progresión automática semana a semana
+- [ ] YouTube embed con validación oEmbed
+- [ ] Guardar y editar rutinas existentes
+
+Fase 3 — Analytics Dashboard
+- [ ] Vista del entrenador: rutinas activas por cliente
+- [ ] Logs de entrenamiento (day_logs / exercise_logs)
+- [ ] Gráficos de progresión
+
+Fase 4 — PWA + i18n
+- [ ] Configurar manifest.json + service worker
+- [ ] Strings ES/EN con next-intl o similar
+
+Fase 5 — Auth (nice to have)
+- [ ] Habilitar Google OAuth en Supabase dashboard
+- [ ] Agregar URL de callback en Google Cloud Console
+- [ ] Testear login → redirect → dashboard

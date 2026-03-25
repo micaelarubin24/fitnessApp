@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/micaela.rubin/Documents/fitnessAppClaude/**)",
+      "Bash(npx create-next-app@14 trainer-app --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(cp -r ../trainer-app/. .)",
+      "Bash(rm -rf ../trainer-app)",
+      "Bash(npx:*)"
+    ]
+  }
+}
